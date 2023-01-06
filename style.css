@@ -1,0 +1,126 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    min-width: 960px;
+    margin: 0;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: #222020;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header, footer {
+    flex-shrink: 0;
+    background-color: #CEC1BB;
+}
+
+main {
+    flex-grow: 1;
+    background-color: white;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width:1263px;
+    margin:0;
+    margin-left:103px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+.logo-link {
+    flex-shrink: 0;
+    transition: opacity 0.3s;
+}
+
+.logo-link:hover,
+.logo-link:focus {
+    opacity: 0.6;
+}
+
+.menu-item {
+   margin-bottom: 15px;
+}
+
+.menu-link {
+    color: #222020;
+    transition: opacity 0.3s;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    opacity: 0.6;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 49px;
+    align-items: center;
+    color: #222020;
+    padding-top: 105px;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 24px;
+    color: #222020;
+}
+
+.footer-container {
+    max-width:1263px;
+    margin:0;
+    margin-left:103px;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.footer-logo {
+    flex-shrink: 0;
+    margin-right: 54px;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.footer-item:nth-child(n+2) {
+    margin-left: 25px;
+}
